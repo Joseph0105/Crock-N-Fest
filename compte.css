@@ -1,0 +1,151 @@
+/* Définition des polices perso */
+@font-face
+{
+	font-family: 'mephisto';
+	src: url("police/mephisto.ttf");
+
+}
+@font-face
+{
+	font-family: 'roboto-regular';
+	src: url("police/roboto-regular.ttf");
+}
+/* Les polices */
+h1
+{
+	font-family: "mephisto";
+	font-size: 3em;
+	color: #B09A6D;
+	margin-right: 30px;
+}
+@media all and (max-width: 1024px)
+{
+	h1
+	{
+		font-size: 2em;
+	}
+}
+h2
+{
+	font-family: "mephisto";
+	color: #AB2816;
+}
+p
+{
+	font-family: sans-serif;
+	color: #AB2816;
+}
+legend
+{
+	font-family: "mephisto";
+	color: #AB2816;
+	text-shadow: 3px 3px 2px black;
+	-webkit-text-stroke: 0.1px black ;
+	font-size: 1.5em;
+
+}
+#nouveau
+{
+	font-family: sans-serif;
+	color: #B09A6D;
+}
+/* Fin des polices */
+body
+{
+	width: auto;
+	margin: auto;
+	background: url(image/fond.png) no-repeat;
+	background-attachment: fixed;
+}
+header
+	{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;	
+	}
+
+	.logo
+	{
+	
+		width: 15em;
+		height: 15em;
+	}
+@media all and (max-width: 1024px)
+{
+	.logo
+	{
+		width: 10em;
+		height: 10em;
+	}
+}
+aside
+{
+	display: flex;
+	justify-content: space-around;
+
+}
+@media all and (max-width: 1024px)
+{
+	aside
+	{
+		flex-direction: column-reverse;
+		justify-content: space-between;
+	}
+}
+#corp
+{
+	background-color: rgba(60, 60, 65, 0.6);
+	margin: 10px;
+}
+section
+{
+	display: flex;
+	flex-direction: row;
+	
+}
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+	margin-right: 150px;
+	padding: 3px;
+
+}
+fieldset
+{
+	background-color: #D4CEBD;
+	border: 2px solid #B09A6D;
+	width: 500px;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-weight: bold;
+
+}
+#connect
+{
+	width: 600px;
+	height: 120px;
+	margin-top: 200px;
+	margin-right: 20px;
+	
+}
+@media all and (max-width: 1024px)
+{
+	#connect
+	{
+	width: 600px;
+	height: 120px;
+	margin-top: -40%;
+	margin-left: -100%;
+	}
+	#membre
+	{
+		height: 200px;
+	}
+}
+#footer
+{
+	margin-left: 20px;
+	margin-bottom: 50px;
+}
